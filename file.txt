@@ -1,0 +1,5 @@
+orange #f15025
+black #ffffff
+grey #e6e8e6
+dark grey #ced0ce
+black #191919

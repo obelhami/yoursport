@@ -6,42 +6,58 @@
 
   body {
     font-family: Arial, sans-serif;
+    background-color: #e6e8e6;
+    /* max-width: 1250px; */
+    /* width: 100%; */
+    overflow-x: hidden;
+    margin-inline: auto;
+    background-image: url(bg.png);
+    background-size:contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
   }
 
   .navbar {
-    width: 100%;
+    /* max-width: 1250px; */
+    /* width: 100%; */
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.097) */
   }
 
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #3498db;
-    text-decoration: none;
+  .logo{
+    width: 100px;
   }
 
-  .search-bar {
-    flex: 1;
-    /* border-radius: 20px; */
-    display: flex;
-    justify-content: center;
-    margin: 0 30px;
-  }
-
-  .nav-links input {
-    width: 100%;
-    max-width: 250px;
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
+  .button-login{
+    background-color: #f15025;
+    color: #e6e8e6;
+    width: 80px;
     font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.3s;
   }
 
+  .button-login:hover{
+    opacity: 0.8;
+  }
+
+  .button-login:active{
+    opacity: 0.5;
+  }
+
+  .logo{
+    color: #f15025;
+    font-size: 40px;
+  }
   .nav-links {
     display: flex;
     align-items: center;
@@ -50,18 +66,42 @@
 
   .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #0c1618;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: 0.2s ease;
+    padding: 10px;
   }
 
   .nav-links a:hover {
-    color: #3498db;
+    color: #f15025;
+    border-bottom: 1px solid #f15025;
   }
 
-  /* Optional: Make the navbar stick to the top */
-  .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  .block-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-inline: auto;
+    /* gap: 100px; */
+    color: #0c1618;
+    width: 80%;
   }
+
+  .black{
+    width: 500px;
+  }
+
+  .font{
+    font-size: 50px;
+  }
+
+  .f-block-one{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
