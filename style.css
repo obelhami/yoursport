@@ -43,7 +43,6 @@
     padding: 8px;
     border: none;
     border-radius: 25px;
-    transition: 0.3s;
   }
 
   .button-login:hover{
@@ -66,7 +65,7 @@
 
   .nav-links a {
     text-decoration: none;
-    color: #0c1618;
+    color: #191919;
     font-weight: 500;
     transition: 0.2s ease;
     padding: 10px;
@@ -82,10 +81,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-inline: auto;
     /* gap: 100px; */
-    color: #0c1618;
+    color: #191919;
     width: 80%;
   }
 
@@ -94,7 +93,17 @@
   }
 
   .font{
-    font-size: 50px;
+    font-size: 80px;
+  }
+
+  span{
+    color: #f15025;
+  }
+
+  .paragraph{
+    font-size: large;
+    line-height: 2;
+    font-weight: 400;
   }
 
   .f-block-one{
@@ -104,4 +113,24 @@
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    width: 800px;
+}
+
+.getstarted{
+  background-color: #f15025;
+    color: #e6e8e6;
+    width: 180px;
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #1919194c;
+}
+
+.getstarted:hover{
+ opacity: 0.8;
+}
+
+.getstarted:active{
+  opacity: 0.5;
 }
